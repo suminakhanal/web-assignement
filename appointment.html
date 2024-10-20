@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindNest - Book an Appointment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="counseling.html">Counseling</a></li>
+                <li><a href="articles.html">Articles & Topics</a></li>
+                <li><a href="support.html">Addiction Support</a></li>
+                <li><a href="profile.html">User Profile</a></li>
+                <li><a href="appointment.html">Appointment Form </a></li>
+                <li><a href="completion.html"> My Bookings </a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1>Book an Appointment</h1>
+        <p>Fill out the form below to book your counseling session.</p>
+
+        <form action="completion.html" method="GET" class="appointment-form">
+            <label for="session-type">Session Type:</label>
+            <input type="text" id="session-type" name="session-type" readonly>
+
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <input type="submit" value="Book Now" class="cta-button">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MindNest. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Get the session type from the URL parameter
+        function getSessionTypeFromURL() {
+            const params = new URLSearchParams(window.location.search);
+            return params.get('session');
+        }
+
+        // Set the session type in the form based on URL parameter
+        document.getElementById('session-type').value = getSessionTypeFromURL();
+    </script>
+</body>
+</html>

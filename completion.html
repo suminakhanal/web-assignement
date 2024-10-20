@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindNest - Booking Completed</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="counseling.html">Counseling</a></li>
+                <li><a href="articles.html">Articles & Topics</a></li>
+                <li><a href="support.html">Addiction Support</a></li>
+                <li><a href="profile.html">User Profile</a></li>
+                <li><a href="appointment.html">Appointment Form </a></li>
+                <li><a href="completion.html"> My Bookings </a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <br>
+
+    <section>
+        <h1>Booking Completed</h1>
+        <p>Thank you for booking your session! Below are the details of your appointment:</p>
+        <br>
+        <div class="booking-summary">
+            <p><strong>Session Type:</strong> <span id="session-type"></span></p>
+            <p><strong>Your Name:</strong> <span id="name"></span></p>
+            <p><strong>Your Email:</strong> <span id="email"></span></p>
+            <p><strong>Preferred Date:</strong> <span id="date"></span></p>
+        </div>
+
+        <br>
+
+        <a href="index.html" class="cta-button">Go to Home</a>
+    </section>
+
+    <br>
+    
+    <footer>
+        <p>&copy; 2024 MindNest. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Function to extract URL parameters
+        function getParam(param) {
+            const params = new URLSearchParams(window.location.search);
+            return params.get(param);
+        }
+
+        // Populate booking summary details
+        document.getElementById('session-type').innerText = getParam('session-type');
+        document.getElementById('name').innerText = getParam('name');
+        document.getElementById('email').innerText = getParam('email');
+        document.getElementById('date').innerText = getParam('date');
+    </script>
+</body>
+</html>

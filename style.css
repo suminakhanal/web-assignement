@@ -5,6 +5,11 @@ body {
     margin: 0;
     padding: 20px;
     text-align: center;
+
+}
+
+.hero a{
+    
 }
 
 h1, h2 {
@@ -25,7 +30,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 70px;
+    margin-right: 100px;
 }
 
 nav ul li a {
@@ -36,7 +41,7 @@ nav ul li a {
 
 /* Feature Boxes */
 .feature-box, .article-box, .support-box {
-    width: 250px;
+    width: 400px;
     margin: 20px;
     padding: 20px;
     background-color: rgb(223, 213, 213);
@@ -99,6 +104,7 @@ footer {
     padding: 10px;
     text-align: center;
     margin-top: 30px;
+    
 }
 
 .counseling-info {
@@ -123,4 +129,109 @@ font-size: 20px;
 }
 .user-info p {
     text-align: left;
+}
+
+.hero img {
+    width: 100%;
+    max-height: 200px;
+    
+    
+
+}
+
+img {
+    max-width: 75%;
+    height: 100%;
+    border-image: fill;
+
+}
+
+footer p{
+    color: white;
+}
+
+
+/* Appointment Form Styling */
+.appointment-form {
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-form label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #4A4E69;
+}
+
+.appointment-form input[type="text"],
+.appointment-form input[type="email"],
+.appointment-form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.appointment-form input[type="submit"] {
+    width: 100%;
+    background-color: #87CEEB;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.appointment-form input[type="submit"]:hover {
+    background-color: #6A0572;
+}
+
+
+/* Booking Summary */
+.booking-summary {
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.booking-summary p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.booking-summary strong {
+    color: #4A4E69;
+}
+
+/* "Go to Home" Button */
+.cta-button {
+    display: block;
+    width: 50%;
+    max-width: 200px;
+    margin: 20px auto;
+    background-color: #87CEEB;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #6A0572;
 }
