@@ -1,7 +1,7 @@
 /* General Styling */
 body {
-    font-family: 'Open Sans', sans-serif;
-    background: linear-gradient(to bottom right, #e0f7fa, #f1f8e9); /* Soft gradient */
+    font-family: 'Open Sans', 'Roberto';
+    background: linear-gradient(to bottom right,#87CEEB, #f1f8e9); /* Soft gradient */
     margin: 0;
     padding: 20px;
     text-align: center;
@@ -16,14 +16,15 @@ header {
 
 .hero a{
     text-align: center;
+    
     font-size: 20px;
 }
-
+  
 
 h1, h2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins;
     font-size: 30px;
-    color: #4A4E69; /* Calm dark blue for headers */
+    color:  #711378; /* Calm dark blue for headers */
 }
 
 p {
@@ -178,7 +179,7 @@ footer p{
 .appointment-form label {
     display: block;
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 17px;
     color: #4A4E69;
 }
 
@@ -192,6 +193,7 @@ footer p{
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    
 }
 
 .appointment-form .cta-button {
@@ -199,6 +201,7 @@ footer p{
     padding: 10;
     
 }
+
 
 .appointment-form input[type="submit"] {
     width: 100%;
@@ -229,7 +232,7 @@ footer p{
 }
 
 .booking-summary p {
-    font-size: 16px;
+    font-size: 18px;
     margin: 10px 0;
 }
 
