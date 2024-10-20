@@ -8,9 +8,17 @@ body {
 
 }
 
-.hero a{
-    
+header {
+    text-shadow: #711378;
+    font-size: 20px;
+    font-family: Poppins;
 }
+
+.hero a{
+    text-align: center;
+    font-size: 20px;
+}
+
 
 h1, h2 {
     font-family: 'Poppins', sans-serif;
@@ -23,6 +31,7 @@ p {
     color: #333;
 }
 
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -30,7 +39,11 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 100px;
+    margin-right: 80px;
+    text-shadow: #711378;
+    font-size: 18px;
+    font-family: Poppins;
+
 }
 
 nav ul li a {
@@ -60,11 +73,11 @@ nav ul li a {
 
 /* Call to Action Button */
 .cta-button {
-    background-color: #EACBCB;
+    background-color: #e1c9c9;
     color: #4A4E69;
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: background-color 0.3s ease;
 }
 
@@ -181,9 +194,15 @@ footer p{
     box-sizing: border-box;
 }
 
+.appointment-form .cta-button {
+    background-color: #e8b29b;
+    padding: 10;
+    
+}
+
 .appointment-form input[type="submit"] {
     width: 100%;
-    background-color: #87CEEB;
+    background-color: #e8b29b;
     color: white;
     padding: 10px;
     margin-top: 10px;
@@ -193,7 +212,7 @@ footer p{
 }
 
 .appointment-form input[type="submit"]:hover {
-    background-color: #6A0572;
+    background-color: #e0b99d;
 }
 
 
@@ -224,7 +243,7 @@ footer p{
     width: 50%;
     max-width: 200px;
     margin: 20px auto;
-    background-color: #87CEEB;
+    background-color: #e8b29b;
     color: white;
     padding: 10px;
     text-align: center;
@@ -233,5 +252,5 @@ footer p{
 }
 
 .cta-button:hover {
-    background-color: #6A0572;
+    background-color: #e0b99d;
 }
