@@ -1,0 +1,126 @@
+/* General Styling */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to bottom right, #e0f7fa, #f1f8e9); /* Soft gradient */
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #4A4E69; /* Calm dark blue for headers */
+}
+
+p {
+    font-size: 1.1em;
+    color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 70px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #6A0572; /* Soft purple for links */
+    font-weight: bold;
+}
+
+/* Feature Boxes */
+.feature-box, .article-box, .support-box {
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(223, 213, 213);
+    box-shadow: 0 4px 8px rgba(3, 2, 2, 0.1);
+    display: inline-table;
+    vertical-align: top;
+    
+
+}
+
+
+
+.feature-box h2, .article-box h3, .support-box h3 {
+    color: #6A0572;
+}
+
+/* Call to Action Button */
+.cta-button {
+    background-color: #EACBCB;
+    color: #4A4E69;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #D3A6A6;
+    cursor: pointer;
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+thead th, tbody td {
+    padding: 15px;
+    text-align: left;
+    font-size: 16px;
+}
+
+thead th {
+    background-color: #e0f7fa;
+    color: #4A4E69;
+}
+
+tbody tr {
+    border-bottom: 1px solid #ccc;
+}
+
+/* Footer */
+footer {
+    background-color: #4A4E69;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.counseling-info {
+    text-align: left;
+}
+
+.counseling-info h2 {
+font-size: 20px;
+}
+
+.feature-box h2{
+    font-size: 20px;
+
+}
+.user-info h2 {
+    text-align: left;
+    font-size: 20px;
+}
+
+.user-info  ul li {
+    text-align: left;
+}
+.user-info p {
+    text-align: left;
+}
