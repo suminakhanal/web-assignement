@@ -42,19 +42,20 @@
             <input type="submit" value="Book Now" class="cta-button">
         </form>
     </section>
-
+    <br>
+    
     <footer>
         <p>&copy; 2024 MindNest. All rights reserved.</p>
     </footer>
 
     <script>
-        // Get the session type from the URL parameter
+        // Getting the session type from the URL parameter
         function getSessionTypeFromURL() {
             const params = new URLSearchParams(window.location.search);
             return params.get('session');
         }
 
-        // Set the session type in the form based on URL parameter
+        // Setting the session type in the form based on URL parameter
         document.getElementById('session-type').value = getSessionTypeFromURL();
     </script>
 </body>

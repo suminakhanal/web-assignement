@@ -42,19 +42,21 @@
 
     <br>
     <Br>
+    <br>
+    <br><br>
         
     <footer>
         <p>&copy; 2024 MindNest. All rights reserved.</p>
     </footer>
 
     <script>
-        // Function to extract URL parameters
+        // For extracting extract URL parameters
         function getParam(param) {
             const params = new URLSearchParams(window.location.search);
             return params.get(param);
         }
 
-        // Populate booking summary details
+        
         document.getElementById('session-type').innerText = getParam('session-type');
         document.getElementById('name').innerText = getParam('name');
         document.getElementById('email').innerText = getParam('email');

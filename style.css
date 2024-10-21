@@ -3,8 +3,10 @@ body {
     font-family: 'Open Sans', 'Roberto';
     background: linear-gradient(to bottom right,#87CEEB, #f1f8e9); 
     margin: 0;
-    padding: 20px;
+    padding: 0px;
     text-align: center;
+    font-size: 16px;
+    box-sizing: border-box;
 
 }
 
@@ -263,6 +265,7 @@ footer p{
 .welcome-page {
     text-align: center;
     margin-top: 50px;
+    padding: 20px;
 }
 
 .welcome-page h1 {
@@ -286,33 +289,6 @@ footer p{
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-
-.authentication-container {
-    display: flex;
-    justify-content: right;
-}
-
-.authentication-button {
-    background-color: #e8b29b;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-left: 15px;
-    font-size: 16px;
-}
-
-.authentication-button:hover {
-    background-color: #6A0572;
-    cursor: pointer;
-}
-
-
-footer {
-    text-align: center;
-    margin-top: 50px;
-    color: #4A4E69;
-}
 
 
 
